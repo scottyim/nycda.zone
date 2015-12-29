@@ -33,9 +33,33 @@ h1 {
 	display: inline-block;
 }
 
+h4 {
+	margin-bottom: 0px;
+}
+
+#headshot {
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+#nycda {
+	height: 125px;
+	width: 125px;
+	float: left;
+	margin-right: 30px;
+}
+
+#previous_details {
+	clear: left;
+}
+
 #nav {
 	float: right;
-	margin-top: 105px;
+	margin-top: 120px;
 	font-size: 18px;
 	display: inline-block;
 	clear: left;
@@ -74,4 +98,11 @@ h1 {
 	background-color: #c7c7c7;
 	padding: 0px 10px;
 	box-sizing: border-box;
+}
+
+.home {
+	background-image: url("http://www.nycda.com/wp-content/uploads/2015/08/image04.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right 0px bottom 0px;
 }
